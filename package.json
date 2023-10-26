@@ -2,15 +2,18 @@
   "name": "permier-league",
   "version": "1.0.0",
   "description": "Premier League Project Portfolio",
-  "main": "javas1.js",
+  "source": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel --open",
+    "build": "parcel build"
   },
-  "keywords": [
-    "package.json",
-    "npm",
-    "init"
-  ],
+  "keywords": [],
   "author": "Vincy Xue, Natski Nakano, Shak Yuldashev",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
 }
