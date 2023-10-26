@@ -1,22 +1,16 @@
 {
-    "name": "Premier_league",
-    "version": "1.0.0",
-    "description": "Premier league portfolio project",
-    "source": "index.html",
-    "scripts": {
-      "start": "parcel --open",
-      "build": "parcel build"
-    },
-    "keywords": [],
-    "author": "Vincy Xue, Natski Nakano, Shak Yuldashev",
-    "license": "ISC",
-    "devDependencies": {
-      "@parcel/transformer-sass": "^2.9.3",
-      "parcel": "^2.9.3"
-    },
-    "dependencies": {
-      "@fortawesome/fontawesome-free": "^6.2.1",
-      "bootstrap": "^5.2.3"
-    }
-  }
-  
+  "name": "permier-league",
+  "version": "1.0.0",
+  "description": "Premier League Project Portfolio",
+  "main": "javas1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "package.json",
+    "npm",
+    "init"
+  ],
+  "author": "Vincy Xue, Natski Nakano, Shak Yuldashev",
+  "license": "ISC"
+}
