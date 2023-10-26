@@ -1,0 +1,107 @@
+header {
+    display: flex;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    margin-top: 20px;
+    margin-left: 0;
+    padding-top: 90px;
+}
+.navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 10px;
+    
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #d996e9;
+}
+.navbar-logo-centered .navbar-nav .nav-link{
+    padding: .5em 1em;
+}
+
+.navbar-toggler.custom-toggler{
+    border-color: white;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+.cover {
+    margin: 0;
+    padding: 0;
+    height: 60vh;
+    width: 100%;
+    position:fixed;
+    background-image: url('/portfolio_project_1/img/PL_cover.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+ 
+
+}
+
+
+.cover-content {
+  inset: 0;
+  width: 100%;
+  position: absolute; 
+  background: linear-gradient(rgb(0, 0, 0), rgba(131, 6, 198, 0.658));
+}
+
+
+.cover-text { 
+  position:absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  transform: translateY(-50%);
+  color: white;
+  font-family: 'Signika', sans-serif;
+  margin: 0;
+  padding: 10%;
+}
+
+.cover-text h1{
+    font-size: 100px;
+    font-weight: bold;
+}
+.cover-text p {
+    font-size: 30px;
+    font-style: italic;
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar-nav .nav-link {
+        font-size: 16px;
+        margin: 5px;
+    }
+    .cover-text h1 {
+        font-size: 45px;
+    }
+    .cover-text p {
+        font-size: 20px;
+    }
+}
+
+/* Tablets and larger */
+@media screen and (min-width: 769px) {
+    .navbar-nav .nav-link {
+        font-size: 20px;
+        margin: 10px;
+    }
+    .cover-text h1 {
+        font-size: 100px;
+    }
+    .cover-text p {
+        font-size: 30px;
+    }
+}
