@@ -141,6 +141,22 @@ iframe {
 
 }
 
+.game-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.game-button  {
+    padding-top: 30px;
+    
+}
+
+.btn-bigger {
+    font-size: 22px !important;
+    padding: 15px 60px !important;
+    
+}
 
 @media (max-width: 767.98px) {
     .card .img-fit{
