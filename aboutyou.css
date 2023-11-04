@@ -9,7 +9,6 @@ body {
     margin-top: 20px;
     margin-left: 0;
     padding-top: 90px;
-    background-color: rgb(255, 255, 255) !important;
 }
 .navbar-nav .nav-link {
     color: rgb(255, 255, 255);
@@ -36,16 +35,14 @@ body {
 .cover {
     margin: 0;
     padding: 0;
-    height: 50vh;
+    height: 60vh;
     width: 100%;
-    position:relative;
+    position:fixed;
     background-image: url('img/PL_cover.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
-
-
 }
 
 
@@ -71,98 +68,16 @@ body {
 }
 
 .cover-text h1{
-
+    font-size: 100px;
     font-weight: bold;
 }
 .cover-text p {
-
+    font-size: 30px;
     font-style: italic;
 }
 
-.content-general {
-    padding-top: 50px;
-}
 
-
-
-.card .img-fit {
-    aspect-ratio: 16 / 9;
-    object-fit: cover;
-
-}
-
-.card {
-    height: 100%;
-    border-color:black !important;
-}
-
-.card-body {
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-}
-
-.card-text {
-    flex-grow: 1;
-}
-
-.video-section {
-    margin-top: 50px;
-    background-color: #3f044e;
-    padding: 80px;
-}
-
-iframe {
-    width: 90%;
-    height: 400;
-    align-items: auto;
-}
-
-
-.category {
-    font-size: 1rem;
-    text-transform: uppercase;
-    margin-bottom: 0.5rem;
-    color: white;
-}
-
-.headline {
-    font-size: 2.9rem;
-    margin: 1rem 0;
-    color: white;
-
-}
-
-.description {
-    font-size: 1.2rem;
-    color: white;
-
-}
-
-.game-section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    text-align: center;
-}
-
-.game-button  {
-    padding-top: 30px;
-
-}
-
-.btn-bigger {
-    font-size: 22px !important;
-    padding: 15px 60px !important;
-
-}
-
-@media (max-width: 767.98px) {
-    .card .img-fit{
-        aspect-ratio: 1.45 / 1;
-    }
-}
-
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .navbar-nav .nav-link {
         font-size: 16px;
         margin: 5px;
@@ -173,10 +88,10 @@ iframe {
     .cover-text p {
         font-size: 20px;
     }
-} */
+}
 
 /* Tablets and larger */
-/* @media screen and (min-width: 769px) {
+@media screen and (min-width: 769px) {
     .navbar-nav .nav-link {
         font-size: 20px;
         margin: 10px;
@@ -187,4 +102,16 @@ iframe {
     .cover-text p {
         font-size: 30px;
     }
+}
+
+/* Tell us about you */
+.row-content {
+    padding: 40px;
+}
+#contact {
+    background-image: linear-gradient(#a7f423, rgb(2, 177, 101));;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Open Sans', sans-serif;
 }

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="aboutyou.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+    <title>Premier League-about you</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar fixed-top" style="background-color: #3f044e;">
+            <a class="navbar-brand d-lg-none" href="#"><img src="img/PL_logo2.png" style="width: 80px; height: auto;"></a>
+            <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggler7"
+                aria-controls="myNavbarToggler7" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" ></span>
+            </button>
+            <div class="collapse navbar-collapse" id="myNavbarToggler7">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="game.html">Play Game</a>
+                    </li>
+                    <a class="d-none d-lg-block" href="#"><img src="img/PL_logo2.png" style="width: 80px; height: auto;"></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-you.html">About you</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+    <section id="contact" class="row row-content">
+        <div class="col-12 mb-4">
+            <h1>Tell us about you</h1>
+        </div>
+        <div class="col-sm-6">
+            <div class="row mb-3">
+                <div class="col">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" class="form-control" placeholder="First Name" aria-label="First name">
+                </div>
+                <div class="col">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" class="form-control" placeholder="Last Name" aria-label="Last name">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" placeholder="Email" aria-label="Email">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" class="form-control" id="dob" name="dob">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <label for="region">Region:</label>
+                    <select id="region" name="country" class="form-control">
+                        <option>Select...</option>
+                        <option value="north america">North America</option>
+                        <option value="africa">Africa</option>
+                        <option value="asia">Asia</option>
+                        <option value="central america">Central America</option>
+                        <option value="europe">Europe</option>
+                        <option value="middle east">Middle East</option>
+                        <option value="oceania">Oceania</option>
+                        <option value="south america">South America</option>
+                        <option value="Caribbean">Caribbean</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <label for="favteam">Favorite team:</label>
+                    <select id="favteam" name="favteam" class="form-control">
+                        <option>Select...</option>
+                        <option>Arsenal</option>
+                        <option>Aston Villa</option>
+                        <option>Bournemouth</option>
+                        <option>Brentford</option>
+                        <option>Brighton & Hove Albion</option>
+                        <option>Burnley</option>
+                        <option>Chelsea</option>
+                        <option>Crystal Palace</option>
+                        <option>Everton</option>
+                        <option>Fulham</option>
+                        <option>Liverpool</option>
+                        <option>Luton Town</option>
+                        <option>Manchester City</option>
+                        <option>Manchester United</option>
+                        <option>Newcastle United</option>
+                        <option>Nottingham Forest</option>
+                        <option>Sheffield United</option>
+                        <option>Tottenham Hotspur</option>
+                        <option>West Ham United</option>
+                        <option>Wolverhampton Wanderers</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <label for="subject">Favorite player:</label>
+                    <input type="text" class="form-control" placeholder="Who's your favorite player?" aria-label="Subject">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" name="feedback" rows="7"></textarea>
+                </div>
+            </div>
+                <div class="col">
+                    <button class="btn btn-outline-secondary" type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <script src="javas1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+</body>
+</html>
